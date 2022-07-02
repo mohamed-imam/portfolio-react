@@ -1,14 +1,11 @@
 import profile from "../assets/img/DSC.jpg";
 
 const Home = () => {
-  const style = {
-    borderRadius: "50%",
-  };
   return (
     <div className='container'>
       <div className='row justify-content-between align-items-center'>
         <div className='col-12 col-md-6'>
-          <img style={style} className='w-75' src={profile} alt='profile' />
+          <img className='w-75' src={profile} alt='profile' />
         </div>
         <h4 className='desc text-start col-12 col-md-6'>
           Hello, I am Mohamed Imam. Recently graduated from the Arab Academy for

@@ -7,6 +7,7 @@ import Shop from "./pages/shop";
 import Counter from "./pages/Counter";
 import Product from "./pages/shop/Product";
 import Todo from "./pages/todo/Todo";
+import Signup from "./pages/signup";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/products' element={<Shop />} />
           <Route path='/products/:id' element={<Product />} />
           <Route path='/todo' element={<Todo />} />
+          <Route path='/register' element={<Signup />} />
           <Route path='*' element={<Error />} />
         </Routes>
       </div>

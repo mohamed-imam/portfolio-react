@@ -11,7 +11,7 @@ export default function Navbar() {
         <Link to={"/todo"}>Todo</Link>
         <Link to='/products'>Shop</Link>
         <Link to='/counter'>Counter</Link>
-        <Link to='/login'>Login</Link>
+        <Link to='/register'>Signup</Link>
       </ul>
     </nav>
   );
